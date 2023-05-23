@@ -100,7 +100,7 @@ export function ProgHero() {
                 Innovations program
               </Title>
             </h1>
-            <Text color="dimmed" mt="md">
+            <Text mt="md">
               This program aims to improve access to quality health services and
               innovation for vulnerable populations. The program focuses on
               addressing mental health, non-communicable diseases (NCDs), sexual

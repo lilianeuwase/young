@@ -1,0 +1,125 @@
+/* prog3 Section */
+
+#prog3 {
+    background: white;
+    padding: 550px 0;
+    padding-top: 80px;
+}
+
+#prog3 i.fa {
+    font-size: 38px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    /* color: #75E6DA; */
+    color: #5db8ae;
+    width: 100px;
+    height: 100px;
+    padding: 30px 0;
+    border-radius: 50%;
+    /* background: linear-gradient(to right, #75E6DA 0%, #000000 100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05); */
+}
+
+h3 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    color: black;
+    orphans: 3;
+    widows: 3;
+}
+
+#prog3 h2 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    orphans: 3;
+    widows: 3;
+    page-break-after: avoid;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: black;
+}
+
+#prog3 p {
+    line-height: 24px;
+    margin: 30px 0;
+    color: black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col-md-10 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .col-md-10 {
+        float: left;
+        width: 83.33333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+    }
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.section-title h2 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.section-title h2::after {
+    position: absolute;
+    content: "";
+    background: #75E6DA;
+    height: 5px;
+    width: 208px;
+    bottom: 0;
+    margin-left: -157px;
+    left: 50%;
+}
+
+.section-title p {
+    font-size: 18px;
+}
+
+.col-xs-6 {
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+@media (min-width: 992px) {
+    .col-md-3 {
+        float: left;
+        width: 25%;
+    }
+}
+
+.col-md-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}

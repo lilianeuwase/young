@@ -6,7 +6,10 @@ import {
   Overlay,
   createStyles,
   rem,
+  List,
+  ThemeIcon,
 } from "@mantine/core";
+import { IconCheck } from "@tabler/icons-react";
 import Background from "../../img/background/research.jpeg";
 
 const useStyles = createStyles((theme) => ({
@@ -55,7 +58,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   highlight: {
-    color: theme.colors[theme.primaryColor][4],
+    color: theme.colors.cyan[3],
   },
 
   description: {
@@ -114,7 +117,6 @@ export default function Prog2() {
       <Overlay color="#000" opacity={0.65} zIndex={1} />
 
       <div className={classes.inner}>
-      
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase">
           <Title className={classes.title}>
             The Research and
@@ -125,7 +127,7 @@ export default function Prog2() {
           </Title>
         </h1>
 
-        <Container size={640}>
+        <Container size={1180}>
           <Text size="lg" className={classes.description}>
             This program aims to support evidence-based decision making and the
             creation of innovative solutions to improve health outcomes and
@@ -148,6 +150,36 @@ export default function Prog2() {
             3 by improving the understanding of health issues and developing
             effective interventions to address them.
           </Text>
+          {/* <List
+              mt={30}
+              spacing="sm"
+              size="sm"
+              icon={
+                <ThemeIcon size={20} radius="xl" color="#ffff">
+                  <IconCheck size={rem(12)} stroke={5.5}  color="#000000"/>
+                </ThemeIcon>
+              }
+            >
+              <List.Item c="white">
+                <b>Through the program</b> – we will work to reduce the burden
+                of mental health conditions by promoting early detection,
+                treatment, and management
+              </List.Item>
+              <List.Item c="white">
+                <b>We will prioritize</b> – the integration of mental health
+                services into primary healthcare systems and community-based
+                services to increase access and reduce stigma.
+              </List.Item>
+              <List.Item c="white">
+                <b>The program will also focus</b> – on the prevention and
+                control of NCDs such as diabetes, hypertension, and cancer.
+              </List.Item>
+              <List.Item c="white">
+                <b> We will work with</b> – communities and health systems to
+                promote healthy lifestyles and improve access to diagnosis,
+                treatment, and management of NCDs.
+              </List.Item>
+            </List> */}
         </Container>
       </div>
     </div>
