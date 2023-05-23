@@ -1,0 +1,55 @@
+/* #liner h2::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #4ca8a1 0%, #e85a4f 100%);
+    background: #75E6DA;
+    height: 5px;
+    width: 120px;
+    bottom: 0;
+    left: 0;
+    content: "''";
+    width: full;
+    height: 30%;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    bg: "red.400";
+    z-index: -1;
+} */
+
+
+/* .liner {
+    margin-bottom: 70px;
+} */
+
+
+/* .liner h2 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+} */
+
+
+/* .liner h2::after {
+    position: absolute;
+    content: "";
+    background: #75E6DA;
+    height: 15px;
+    width: 100px;
+    bottom: 0;
+    margin-left: -185px;
+    left: 50%;
+    z-index: 0;
+} */
+
+
+/* .liner p {
+    font-size: 18px;
+} */
+
+
+/* .liner hr {
+    background: #75E6DA;
+} */

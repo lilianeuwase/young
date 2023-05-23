@@ -1,0 +1,33 @@
+.card {
+    padding: 40px;
+    /* background-color: black; */
+    padding-left: 80px;
+}
+
+#card h2 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    orphans: 3;
+    widows: 3;
+    page-break-after: avoid;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: black;
+}
+
+.section-title h2::after {
+    position: absolute;
+    content: "";
+    background: #75E6DA;
+    height: 5px;
+    width: 140px;
+    bottom: 0;
+    margin-left: -65px;
+    left: 50%;
+}

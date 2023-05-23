@@ -32,13 +32,13 @@ const Contact = () => {
                   // item
                   <div key={index}>
                     {/* title */}
-                    <div className='font-primary uppercase font-medium text-xl mb-3'>
+                    {/* <div className='font-primary uppercase font-medium text-xl mb-3'>
                       {title}
-                    </div>
+                    </div> */}
                     {/* subtitle */}
-                    <div className='mb-6 text-[#333] leading-[187%] tracking-[0.02em]'>
+                    {/* <div className='mb-6 text-[#333] leading-[187%] tracking-[0.02em]'>
                       {subtitle}
-                    </div>
+                    </div> */}
                     {/* address, phone & email */}
                     <div className='flex flex-col gap-y-3 mb-8'>
                       {/* address */}
@@ -58,12 +58,12 @@ const Contact = () => {
                       </div>
                     </div>
                     {/* link */}
-                    <a
+                    {/* <a
                       className='font-medium border-b border-dark pb-[5px]'
                       href='#'
                     >
                       {link}
-                    </a>
+                    </a> */}
                   </div>
                 );
               })}

@@ -87,7 +87,7 @@ const Footer = () => {
             </div>
           </motion.div>
           {/* program */}
-          <motion.div variants={fadeIn('up')} className='flex-1'>
+          {/* <motion.div variants={fadeIn('up')} className='flex-1'>
             <div className='font-primary text-xl uppercase tracking-[0.08em] mb-6'>
               {program.title}
             </div>
@@ -96,7 +96,7 @@ const Footer = () => {
                 return <li key={index}>{item.name}</li>;
               })}
             </ul>
-          </motion.div>
+          </motion.div> */}
           {/* newsletter */}
           <motion.div variants={fadeIn('up')} className='flex-1'>
             <div className='font-primary text-xl uppercase tracking-[0.08em] mb-6'>

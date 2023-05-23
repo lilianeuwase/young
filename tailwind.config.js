@@ -30,6 +30,7 @@ module.exports = {
         hero: "url('/src/img/background/back7.jpeg')",
         about: "url('/src/img/about/image.png')",
         interview: "url('/src/img/background/back1.jpeg')",
+        moreIntro: "url('/src/img/background/blackkid2.jpeg')",
       },
       content: {
         outlineText: '',
