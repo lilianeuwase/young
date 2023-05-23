@@ -68,14 +68,23 @@ const useStyles = createStyles((theme) => ({
 }));
 
 const features = [
-  { name: "The program will also focus on the prevention and control of NCDs such as diabetes, hypertension, and cancer. We will work with communities and health systems to promote healthy lifestyles and improve access to diagnosis, treatment, and management of NCDs.", description: "Designed by Good Goods, Inc." },
+  {
+    name: "The program will also focus on the prevention and control of NCDs such as diabetes, hypertension, and cancer. We will work with communities and health systems to promote healthy lifestyles and improve access to diagnosis, treatment, and management of NCDs.",
+    description: "Designed by Good Goods, Inc.",
+  },
   {
     name: "The program will prioritize improving SRHR outcomes for women, men, and young people by increasing access to comprehensive sexual education, family planning, and maternal health services.",
     description:
       "Solid walnut base with rare earth magnets and powder coated steel card cover",
   },
-  { name: "To achieve our goals, the Health and Innovation program will leverage the latest technologies and innovations in healthcare, including telemedicine, e-health solutions, and mobile health applications. ", description: '6.25" x 3.55" x 1.15"' },
-  { name: "We will work to improve the prevention, testing, treatment, and care of HIV, and We will prioritize research and development to identify new solutions and best practices in health service delivery and innovation.", description: "Hand sanded and finished with natural oil" },
+  {
+    name: "To achieve our goals, the Health and Innovation program will leverage the latest technologies and innovations in healthcare, including telemedicine, e-health solutions, and mobile health applications. ",
+    description: '6.25" x 3.55" x 1.15"',
+  },
+  {
+    name: "We will work to improve the prevention, testing, treatment, and care of HIV, and We will prioritize research and development to identify new solutions and best practices in health service delivery and innovation.",
+    description: "Hand sanded and finished with natural oil",
+  },
 ];
 
 export function ProgHero() {

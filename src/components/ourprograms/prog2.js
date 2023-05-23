@@ -7,14 +7,14 @@ import {
   createStyles,
   rem,
 } from "@mantine/core";
+import Background from "../../img/background/research.jpeg";
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
     position: "relative",
     paddingTop: rem(120),
     paddingBottom: rem(110),
-    backgroundImage:
-      "url(https://images.unsplash.com/photo-1573164713988-8665fc963095?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=980&q=80)",
+    backgroundImage: "url(" + Background + ")",
     backgroundSize: "cover",
     backgroundPosition: "center",
 
@@ -28,7 +28,15 @@ const useStyles = createStyles((theme) => ({
     position: "relative",
     zIndex: 1,
   },
+  content: {
+    maxWidth: rem(580),
+    marginRight: `calc(${theme.spacing.xl} * 3)`,
 
+    [theme.fn.smallerThan("md")]: {
+      maxWidth: "100%",
+      marginRight: 0,
+    },
+  },
   title: {
     fontWeight: 800,
     fontSize: rem(40),
@@ -106,14 +114,15 @@ export default function Prog2() {
       <Overlay color="#000" opacity={0.65} zIndex={1} />
 
       <div className={classes.inner}>
-      <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase">
-        <Title className={classes.title}>
-          The Research and
-          <br />{" "}Development{" "}
-          <Text component="span" inherit className={classes.highlight}>
-            program
-          </Text>
-        </Title>
+      
+        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase">
+          <Title className={classes.title}>
+            The Research and
+            <br /> Development{" "}
+            <Text component="span" inherit className={classes.highlight}>
+              program
+            </Text>
+          </Title>
         </h1>
 
         <Container size={640}>
@@ -129,9 +138,17 @@ export default function Prog2() {
             generate new knowledge and build research capacity in low-resource
             settings. We support research that is ethical, culturally sensitive,
             and addresses the needs of communities.
+            <br /> <br />
+            We believe that research should inform policy and practice, and we
+            work to ensure that research findings are translated into action.
+            Our program also includes training and mentorship opportunities for
+            early-career researchers, and we encourage the use of new
+            technologies and innovation in research. Through our Research and
+            Development program, we aim to contribute to the achievement of SDG
+            3 by improving the understanding of health issues and developing
+            effective interventions to address them.
           </Text>
         </Container>
-
       </div>
     </div>
   );
