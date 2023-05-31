@@ -75,14 +75,14 @@ export function CardItem5(props) {
 
   return (
     <Card withBorder radius="md" className={classes.card}>
-      <Card.Section className={classes.imageSection}>
+      {/* <Card.Section className={classes.imageSection}>
         <Image src={props.photo} />
-      </Card.Section>
+      </Card.Section> */}
 
       <Group position="apart" mt="md">
         <div>
-          <Text fw={500}>{props.title1}</Text>
-          <Text fz="xs" c="dimmed">
+          <Text fz={20} fw={700}>{props.title1}</Text>
+          <Text fz={14} c="dimmed">
             {props.subtitle1}
           </Text>
         </div>

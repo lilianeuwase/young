@@ -77,18 +77,18 @@ export const CardItem2 = React.memo(function BlogCard(props) {
     <Card className={cx(styles.root, shadowStyles.root)}>
       <CardMedia
         className={styles.media}
-        image={
-          props.image
-        }
+        // image={
+        //   props.image
+        // }
       />
       <CardContent>
         <TextInfoContent
-          classes={contentStyles}
-          overline={props.overline}
+          classes={textCardContentStyles}
+          // overline={props.overline}
           heading={props.title}
           body={props.body}
         />
-        <Button
+        {/* <Button
           style={{
             borderRadius: 35,
             backgroundColor: props.color,
@@ -98,7 +98,7 @@ export const CardItem2 = React.memo(function BlogCard(props) {
  
         >
           Read more
-        </Button>
+        </Button> */}
       </CardContent>
     </Card>
   );

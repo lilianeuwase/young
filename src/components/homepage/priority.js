@@ -18,7 +18,7 @@ const Priority = () => {
           <div className="about-text">
             <h2>PRIORITY</h2>
             <p>
-              We prioritize understanding and addressing their needs and
+              We prioritize understanding and addressing community needs and
               concerns and ensuring that our programs are tailored to their
               specific contexts and circumstances. By incorporating these
               principles into our design, we are confident that our programs

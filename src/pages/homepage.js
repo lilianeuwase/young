@@ -18,16 +18,17 @@ export default function HomePage() {
   return (
     <div className="max-w-[1920px] mx-auto overflow-hidden bg-white">
       <Hero />
+      {/* <Vision /> */}
       <Mission />
-      <MoreIntro />
-      <GallerySection />
-      <Priority />
-      <Stats />
       <Aim />
-      <Vision />
+    
+      {/* <GallerySection /> */}
+      {/* <Priority /> */}
+      <Stats />
+      <MoreIntro />
       <Exist/>
-      <Interview />
-      <More/>
+      {/* <Interview /> */}
+      {/* <More/> */}
       <Contact />
     </div>
   );

@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // import data
-import { heroData } from '../../data';
+import { heroData } from "../../data";
 // import motion
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 // import variants
-import { fadeIn } from '../../variants';
+import { fadeIn } from "../../variants";
 
 const container = {
   hidden: {},
@@ -18,38 +18,40 @@ const container = {
 
 const Hero = () => {
   // destructure hero data
-  const { title, subtitle, btnText, btnIcon, href } = heroData;
+  const { title, subtitle1, subtitle2, btnText, btnIcon, href } = heroData;
   return (
-    <section className='bg-hero bg-cover bg-center min-h-[40vh] lg:h-[700px] bg-no-repeat relative mt-[120px] lg:mt-[118px]'>
+    <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[720px] bg-no-repeat relative mt-[120px] lg:mt-[118px]">
       <motion.div
         variants={container}
-        initial='hidden'
-        whileInView={'show'}
-        className='container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end'
+        initial="hidden"
+        whileInView={"show"}
+        className="container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end"
       >
         {/* text & btn */}
-        <div className='text-white lg:text-left lg:max-w-[640px]'>
-          <motion.h1 variants={fadeIn('down')} className='h1'>
+        <div className="text-white lg:text-left lg:max-w-[640px]">
+          <motion.h1 variants={fadeIn("down")} className="h1">
             {title}
           </motion.h1>
           <motion.p
-            variants={fadeIn('down')}
-            className='mb-8 lg:mb-12 max-w-lg leading-relaxed font-bold'
+            variants={fadeIn("down")}
+            className="mb-8 lg:mb-12 max-w-lg leading-relaxed font-bold"
           >
-            {subtitle}
+            {subtitle1}
+            {subtitle2}
           </motion.p>
+          
           {/* btn */}
-          <motion.div variants={fadeIn('down')}>
-          <a href={href}>
-            <button  className='btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0'>
-              {btnText}
-              <div className='text-xl'>{btnIcon}</div>
-            </button>
+          <motion.div variants={fadeIn("down")}>
+            <a href={href}>
+              <button className="btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0">
+                {btnText}
+                <div className="text-xl">{btnIcon}</div>
+              </button>
             </a>
           </motion.div>
         </div>
         {/* outline text */}
-        <div className='hidden xl:flex absolute -bottom-2 right-0 left-0 before:content-outlineText'></div>
+        <div className="hidden xl:flex absolute -bottom-2 right-0 left-0 before:content-outlineText"></div>
       </motion.div>
     </section>
   );

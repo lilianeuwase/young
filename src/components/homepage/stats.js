@@ -19,6 +19,7 @@ const Stats = () => {
   const [piercing, setPiercing] = useState(0);
   const [fullColor, setFullColor] = useState(0);
   const [temporary, setTemporary] = useState(0);
+  const [temporary1, setTemporary1] = useState(0);
 
   useEffect(() => {
     if (inView) {
@@ -35,14 +36,18 @@ const Stats = () => {
         if (temporary < 45.7) {
           setTemporary(temporary + 1);
         }
+        if (temporary1 < 45.7) {
+          setTemporary1(temporary1 + 1);
+        }
       }, 50);
     } else {
       setFullBody(0);
       setPiercing(0);
       setFullColor(0);
       setTemporary(0);
+      setTemporary1(0);
     }
-  }, [inView, fullBody, piercing, fullBody, temporary]);
+  }, [inView, fullBody, piercing, fullBody, temporary, temporary1]);
 
   const styles = {
     path: {
@@ -55,6 +60,7 @@ const Stats = () => {
       fill: "#111111",
       fontSize: "24px",
     },
+    
   };
 
   return (
@@ -66,9 +72,9 @@ const Stats = () => {
       ref={ref}
       className="mb-32 font-primary"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-20">
         <div className="flex flex-col xl:flex-row justify-between items-center gap-y-12">
-          <div className="w-[150px] lg:w-[275px] flex flex-col justify-center items-center gap-y-6">
+          <div className="w-[150px] lg:w-[235px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               strokeWidth={1}
               styles={styles}
@@ -79,7 +85,7 @@ const Stats = () => {
               Of all deaths in Rwanda are NCD related 
             </div>
           </div>
-          <div className="w-[150px] lg:w-[275px] flex flex-col justify-center items-center gap-y-6">
+          <div className="w-[150px] lg:w-[235px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               styles={styles}
               strokeWidth={1}
@@ -90,7 +96,7 @@ const Stats = () => {
               Of Rwandans have mental health disorders
             </div>
           </div>
-          <div className="w-[150px] lg:w-[275px] flex flex-col justify-center items-center gap-y-6">
+          <div className="w-[150px] lg:w-[235px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               styles={styles}
               strokeWidth={1}
@@ -101,7 +107,7 @@ const Stats = () => {
             of girls aged 15-19 are reported being sexually active
             </div>
           </div>
-          <div className="w-[150px] lg:w-[275px] flex flex-col justify-center items-center gap-y-6">
+          <div className="w-[150px] lg:w-[235px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               styles={styles}
               strokeWidth={1}
@@ -112,6 +118,18 @@ const Stats = () => {
              Of female sex workers in Kigali are HIV+
             </div>
           </div>
+          {/* <div className="w-[150px] lg:w-[275px] flex flex-col justify-center items-center gap-y-6">
+            <CircularProgressbar
+              styles={styles}
+              strokeWidth={1}
+              value={temporary1}
+              text={`${temporary1}%`}
+              
+            />
+            <div className="uppercase font-light tracking-[1.2px] text-center">
+             Of female sex workers in Kigali are HIV+
+            </div>
+          </div> */}
         </div>
       </div>
     </motion.section>

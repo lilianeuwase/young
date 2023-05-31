@@ -17,6 +17,7 @@ import {
 import { ChakraProvider } from "@chakra-ui/react";
 import "./whoMore.css";
 import { ChatIcon, CalendarIcon } from "@chakra-ui/icons";
+import { WhoIcons } from "./whoIcons";
 
 export default function WhoMore() {
   return (
@@ -63,7 +64,8 @@ export default function WhoMore() {
               community members, and creating interventions that are sustainable
               and community-led.
             </Text>
-            <Stack
+            {/* <WhoIcons/> */}
+            {/* <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}
             >
@@ -92,7 +94,7 @@ export default function WhoMore() {
                   Contact Us
                 </Button>
               </Link>
-            </Stack>
+            </Stack> */}
           </Stack>
           <Flex
             flex={1}

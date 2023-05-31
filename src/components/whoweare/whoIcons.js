@@ -85,7 +85,7 @@ export function WhoIcons() {
 
   const items = mockdata.map((item) => (
     <UnstyledButton key={item.title} className={classes.item}>
-      <item.icon color={theme.colors[item.color][6]} size="2rem" />
+      <item.icon color={theme.colors.cyan[4]} size="2rem" />
       <Text size="xs" mt={7}>
         {item.title}
       </Text>
@@ -93,20 +93,19 @@ export function WhoIcons() {
   ));
 
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-6xl py-32 sm:py-48 lg:py-4">
+    <div className="bg-gray-100">
+      <div className="mt-4 mb-4">
         <div className=" section-title"></div>
         <Card withBorder radius="md" className={classes.card}>
           <Group position="apart">
             <Text className={classes.title}>
-              For very single project we implement, we make sure we follow those
-              stages
+              Project implementation stages:
             </Text>
-            <Anchor size="xs" color="dimmed" sx={{ lineHeight: 1 }}>
+            {/* <Anchor size="xs" color="dimmed" sx={{ lineHeight: 1 }}>
               4 stages
-            </Anchor>
+            </Anchor> */}
           </Group>
-          <SimpleGrid cols={2} mt="md">
+          <SimpleGrid cols={2}>
             {items}
           </SimpleGrid>
         </Card>

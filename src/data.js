@@ -34,9 +34,10 @@ export const navData = {
     { href: "/", name: "Home" },
     { href: "/whoweare", name: "Who We Are" },
     { href: "/ourprograms", name: "Our programs" },
-    { href: "/contactus", name: "Contact us" },
-    { href: "/donate", name: "Donate" },
+    // { href: "/contactus", name: "Contact us" },
+    // { href: "/donate", name: "Donate" },
     { href: "/workwithus", name: "Work with us" },
+    { href: "/meettheteam", name: "The Team" },
   ],
 };
 
@@ -50,19 +51,24 @@ export const socialData = [
 
 export const heroData = {
   title: "Rwanda Youth Voice for Change",
-  subtitle:
-    "The primary objective of this volunteer organization is to initiate programs that promote improved living standards for both youth and marginalized populations. RYVC is committed to uniting, defending, and representing the Rwandan youth.",
+  subtitle2:
+    "The primary objective of this organization is to initiate programs that promote improved living standards for both youth and marginalized populations.",
+  subtitle1:
+    "RYVC Is a non-Political, non-Governmental, and non-Profit organization that was founded in 2009; It is duly registered and recognized by the Rwanda Governance Board. ",
   btnText: "Our Programs",
   btnIcon: <IoMdArrowForward />,
   href: "/ourprograms",
 };
 
 export const aboutData = {
-  title: "Mission Statement:",
+  title1: "Our Vision:",
+  title2: "Our Mission:",
   subtitle1:
-    "Our mission is to harness the power of data and human-centered design to improve the health and wellbeing of Rwandans, particularly youth and other under-served groups, through innovative solutions, research, education, and sustainable livelihoods, while also contributing to the achievement of SDG 3.",
+    "A healthy and prosperous Rwanda where young people are empowered to drive sustainable development and innovation.",
   subtitle2:
-    "We believe in using evidence-based approaches to drive decision-making and advocacy efforts, in collaboration with other stakeholders and communities. By leveraging the latest technologies and working closely with our beneficiaries, we strive to create sustainable solutions that address the unique needs and challenges among our beneficiaries.",
+    "Our mission is to harness the power of data and human-centered design to improve the health and wellbeing of Rwandans, particularly youth and other under-served groups, through innovative solutions, research, education, and sustainable livelihoods, while also contributing to the achievement of SDG 3.",
+  // subtitle2:
+  //   "We believe in using evidence-based approaches to drive decision-making and advocacy efforts, in collaboration with other stakeholders and communities. By leveraging the latest technologies and working closely with our beneficiaries, we strive to create sustainable solutions that address the unique needs and challenges among our beneficiaries.",
   btnText: "Know more",
   btnIcon: <IoMdArrowForward />,
 };
@@ -199,7 +205,7 @@ export const galleryData = {
 
 export const interviewData = {
   title:
-    "“RYVC is a non-political, non-governmental, and non-profit organization that was founded in 2009. It is duly registered and recognized by the Rwanda Governance Board under the registration number (N° 882/RGB/NGO/LP/02/2023) and collaborates with local districts such as Rulindo in the Northern Province and Huye in the Southern Province of Rwanda. ”",
+    "“Transforming lives through health, education, and innovation.” - Our motto",
   btnText: "Some Video",
   btnIcon: <FaPlay />,
 };
@@ -212,13 +218,13 @@ export const testimonialData = [
     name: "Our Vision",
     occupation: "RYVC",
   },
-  {
-    quoteImg: QuoteImg,
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?",
-    name: "Douglas Hane",
-    occupation: "Tattoo Artist",
-  },
+  // {
+  //   quoteImg: QuoteImg,
+  //   message:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?",
+  //   name: "Douglas Hane",
+  //   occupation: "Tattoo Artist",
+  // },
 ];
 
 export const contactData = {

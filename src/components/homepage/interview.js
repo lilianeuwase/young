@@ -16,10 +16,10 @@ const Interview = () => {
   return (
     <motion.section
       variants={fadeIn('up')}
-      initial='hidden'
+      // initial='hidden'
       whileInView={'show'}
       viewport={{ once: false, amount: 0.1 }}
-      className='section bg-dark bg-interview bg-no-repeat bg-cover bg-center lg:h-[500px]'
+      className='section bg-dark bg-interview bg-no-repeat bg-cover bg-center lg:h-[200px]'
     >
       <div className='container mx-auto h-full'>
         <div className='flex flex-col justify-center h-full'>

@@ -30,7 +30,7 @@ const Prog3 = () => {
   return (
     <div id="prog3" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
+        <div className="col-md-10 col-md-offset-1 section-prog3">
           <h2>The Education program </h2>
         </div>
         <div className="">

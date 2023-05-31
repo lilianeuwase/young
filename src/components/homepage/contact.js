@@ -16,7 +16,7 @@ const Contact = () => {
           {/* text */}
           <motion.div
             variants={fadeIn('right')}
-            initial='hidden'
+            // initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
             className='flex-1'
@@ -72,7 +72,7 @@ const Contact = () => {
           {/* form */}
           <motion.div
             variants={fadeIn('left')}
-            initial='hidden'
+            // initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
             className='flex-1 xl:pl-[40px] flex justify-center items-center '

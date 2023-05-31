@@ -11,7 +11,7 @@ const Aim = () => {
     <div className="bg-white" id="card">
       <div className="mx-auto max-w-7xl py-32 sm:py-48 lg:py-24">
       <div className=" text-center section-title">
-          <h2> Values</h2>
+          <h2> Our Values</h2>
         </div>
         <ul className="cards_items">
           <li className="cards_item">

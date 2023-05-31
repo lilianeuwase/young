@@ -3,11 +3,14 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Copyright from "./components/footer/copyright";
 import Footer from "./components/footer/footer";
+import Interview from "./components/homepage/interview";
 import Header from "./components/navbar/header";
+import MeetTheTeam from "./components/whoweare/team/meetTheTeam";
 import GalleryPage from "./pages/galleryPage";
 import HomePage from "./pages/homepage";
 import OurPrograms from "./pages/ourPrograms";
 import WhoWeAre from "./pages/whoWeAre";
+import WorkWithUs from "./pages/workWithUs";
 
 function App() {
   return (
@@ -19,8 +22,11 @@ function App() {
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/whoweare" element={<WhoWeAre />} />
           <Route path="/ourprograms" element={<OurPrograms />} />
+          <Route path="/meettheteam" element={<MeetTheTeam />} />
+          <Route path="/workwithus" element={<WorkWithUs />} />
         </Routes>
       </div>
+      <Interview/>
       <Footer/>
       <Copyright/>
     </Router>
