@@ -6,8 +6,10 @@ import NavMobile from "./navMobile";
 import Socials from "./socials";
 // import icons
 import { TiThMenuOutline } from "react-icons/ti";
-import Navbar from "./navbar";
 import DropDown from "./dropDown";
+import NavHome from "./navHome";
+import NavProg from "./navProg";
+import NavWork from "./navWork";
 
 const Header = () => {
   // destructure header data
@@ -29,15 +31,15 @@ const Header = () => {
       <div className="flex justify-between items-center h-full pl-[50px] pr-[60px]">
         {/* logo */}
         <a href="/">
-          <img className="w-[165px] h-[85px]" src={logo} alt="" />
+          <img className="w-[130px] h-[80px]" src={logo} alt="" />
         </a>
         {/* nav - initially is hidden - show on desktop*/}
-        <div className="hidden xl:flex">
-          <Navbar />
-        </div>
-        {/* <div className="hidden xl:flex">
-          <DropDown />
-        </div> */}
+        {/* <div className="hidden xl:flex"> */}
+        <NavHome />
+        <DropDown />
+        <NavProg />
+        <NavWork />
+        {/* </div> */}
         {/* nav menu btn - is showing by default - hidden on desktop mode */}
         <div
           onClick={() => setNavMobile(!navMobile)}

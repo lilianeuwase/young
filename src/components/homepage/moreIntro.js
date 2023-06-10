@@ -21,7 +21,7 @@ const MoreIntro = () => {
             viewport={{ once: false, amount: 0.6 }}
             className="flex-1 h-full xl:mt-20"
           >
-            <h2 className='h2 text-white'>Our Philosophy:</h2>
+            <h2 className='h2 text-white'>Our Philosophy</h2>
             <div className="flex flex-col items-end">
               <div className="max-w-[530px] text-white">
                 <p className="mb-6">

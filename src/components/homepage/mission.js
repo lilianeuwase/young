@@ -31,12 +31,13 @@ const Mission = () => {
             // initial='hidden'
             whileInView={"show"}
             viewport={{ once: false, amount: 0.6 }}
-            className="flex-1 h-full xl:mt-28"
+            className="flex-1 h-full xl:mt-28 text-center"
           >
-            <h2 className="h2">{title1}</h2>
+          <h2 className="text-[40px] xl:text-[85px] text-dark uppercase font-primary leading-none mb-[38px]">{title1}</h2>
             <div className="flex flex-col items-end">
               <div className="max-w-[530px] text-grey">
-                <p className="mb-6">{subtitle1}</p>
+                
+                <p className="mb-16">{subtitle1}</p>
 
                 {/* <button className='btn btn-lg btn-link'>
                   {btnText}
@@ -44,7 +45,7 @@ const Mission = () => {
                 </button> */}
               </div>
             </div>
-            <h2 className="h2">{title2}</h2>
+            <h2 className="text-[40px] xl:text-[85px] text-dark uppercase font-primary leading-none mb-[38px]">{title2}</h2>
             <div className="flex flex-col items-end">
               <div className="max-w-[530px] text-grey">
                 <p className="mb-6">{subtitle2}</p>

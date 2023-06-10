@@ -29,7 +29,7 @@ export default function HomePage() {
       <Exist/>
       {/* <Interview /> */}
       {/* <More/> */}
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

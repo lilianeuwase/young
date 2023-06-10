@@ -29,16 +29,24 @@ export const headerData = {
   logo: Logo,
 };
 
+export const navDataHome = {
+  items: [{ href: "/", name: "Home" }],
+};
+
+export const navDataProg = {
+  items: [{ href: "/ourprograms", name: "Our programs" }],
+};
+export const navDataWork = {
+  items: [{ href: "/workwithus", name: "Work with us" }],
+};
 export const navData = {
-  items: [
-    { href: "/", name: "Home" },
-    { href: "/whoweare", name: "Who We Are" },
-    { href: "/ourprograms", name: "Our programs" },
-    // { href: "/contactus", name: "Contact us" },
-    // { href: "/donate", name: "Donate" },
-    { href: "/workwithus", name: "Work with us" },
-    { href: "/meettheteam", name: "The Team" },
-  ],
+  items: [{ href: "/", name: "Home" }],
+  items: [{ href: "/whoweare", name: "Our Approach" }],
+  items: [{ href: "/ourteam", name: "Our Team" }],
+  items: [{ href: "/partners", name: "Our Partners" }],
+  items: [{ href: "/ourprograms", name: "Our programs" }],
+  items: [{ href: "/workwithus", name: "Work with us" }],
+
 };
 
 export const socialData = [
@@ -61,8 +69,8 @@ export const heroData = {
 };
 
 export const aboutData = {
-  title1: "Our Vision:",
-  title2: "Our Mission:",
+  title1: "Our Vision",
+  title2: "Our Mission",
   subtitle1:
     "A healthy and prosperous Rwanda where young people are empowered to drive sustainable development and innovation.",
   subtitle2:
@@ -204,8 +212,8 @@ export const galleryData = {
 };
 
 export const interviewData = {
-  title:
-    "“Transforming lives through health, education, and innovation.” - Our motto",
+  title: "“Transforming lives through health, education, and innovation.”",
+  subtitle: "- Our motto -",
   btnText: "Some Video",
   btnIcon: <FaPlay />,
 };
@@ -228,7 +236,7 @@ export const testimonialData = [
 ];
 
 export const contactData = {
-  title: "Get in touch with me:",
+  title: "Get in touch to support our mission:",
   info: [
     {
       title: "LA office",

@@ -1,22 +1,24 @@
 import React from 'react';
+import "./nav.css";
 // import nav data
-import { navData } from '../../data';
+import { navDataProg } from '../../data';
+import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+const NavProg = () => {
   // destructure nav data
-  const { items } = navData;
+  const { items } = navDataProg;
   return (
     <nav>
       <ul className='flex gap-x-[58px]'>
         {items.map((item, index) => {
           return (
             <li key={index}>
-              <a
-                className='link hover:border-b-2 hover:border-dark transition duration-300'
-                href={item.href}
+            <NavLink
+                    className='link hover-item'
+                to={item.href}
               >
                 {item.name}
-              </a>
+              </NavLink>
             </li>
           );
         })}
@@ -25,4 +27,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavProg;

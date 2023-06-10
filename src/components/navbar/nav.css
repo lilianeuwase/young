@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+@property --offset {
+    syntax: '<length>';
+    inherits: false;
+    initial-value: 0;
+}
+
+.hover-item:hover {
+    color: #4f938b;
+}
+
+.hover-item.active {
+    color: #4f938b;
+    --offset: 1em;
+    text-underline-offset: var(--offset, 1em);
+    text-decoration: underline 2px;
+    transition: --offset 400ms, text-decoration-color 400ms;
+}

@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Copyright from "./components/footer/copyright";
 import Footer from "./components/footer/footer";
+import Contact from "./components/homepage/contact";
 import Interview from "./components/homepage/interview";
 import Header from "./components/navbar/header";
 import MeetTheTeam from "./components/whoweare/team/meetTheTeam";
@@ -15,7 +16,7 @@ import WorkWithUs from "./pages/workWithUs";
 function App() {
   return (
     <Router>
-    <Header/>
+      <Header />
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -26,9 +27,12 @@ function App() {
           <Route path="/workwithus" element={<WorkWithUs />} />
         </Routes>
       </div>
-      <Interview/>
-      <Footer/>
-      <Copyright/>
+      <div className="bg-white">
+        <Contact />
+      </div>
+      <Interview />
+      <Footer />
+      <Copyright />
     </Router>
   );
 }

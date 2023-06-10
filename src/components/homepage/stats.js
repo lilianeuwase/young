@@ -74,7 +74,7 @@ const Stats = () => {
     >
       <div className="container mx-auto mt-20">
         <div className="flex flex-col xl:flex-row justify-between items-center gap-y-12">
-          <div className="w-[150px] lg:w-[235px] flex flex-col justify-center items-center gap-y-6">
+          <div className="w-[150px] lg:w-[150px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               strokeWidth={1}
               styles={styles}
@@ -85,7 +85,7 @@ const Stats = () => {
               Of all deaths in Rwanda are NCD related 
             </div>
           </div>
-          <div className="w-[150px] lg:w-[235px] flex flex-col justify-center items-center gap-y-6">
+          <div className="w-[150px] lg:w-[150px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               styles={styles}
               strokeWidth={1}
@@ -96,7 +96,7 @@ const Stats = () => {
               Of Rwandans have mental health disorders
             </div>
           </div>
-          <div className="w-[150px] lg:w-[235px] flex flex-col justify-center items-center gap-y-6">
+          <div className="w-[150px] lg:w-[150px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               styles={styles}
               strokeWidth={1}
@@ -107,7 +107,7 @@ const Stats = () => {
             of girls aged 15-19 are reported being sexually active
             </div>
           </div>
-          <div className="w-[150px] lg:w-[235px] flex flex-col justify-center items-center gap-y-6">
+          <div className="w-[150px] lg:w-[150px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               styles={styles}
               strokeWidth={1}

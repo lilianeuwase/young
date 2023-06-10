@@ -64,6 +64,11 @@ const useStyles = createStyles((theme) => ({
     }`,
   },
 
+  icons: {
+    marginLeft: "auto",
+    marginRight: "auto",
+  },
+
   cardTitle: {
     "&::after": {
       content: '""',
@@ -72,6 +77,8 @@ const useStyles = createStyles((theme) => ({
       width: rem(45),
       height: rem(2),
       marginTop: theme.spacing.sm,
+      marginLeft: "auto",
+      marginRight: "auto",
     },
   },
 }));
@@ -86,7 +93,7 @@ export function WhoHero2() {
       className={classes.card}
       padding="xl"
     >
-      <feature.icon size={rem(50)} stroke={2} color={theme.colors.cyan[4]} />
+      <feature.icon size={rem(50)} stroke={2} color={theme.colors.cyan[4]} className={classes.icons}/>
       <Text fz="lg" fw={500} className={classes.cardTitle} mt="md">
         {feature.title}
       </Text>
@@ -98,7 +105,7 @@ export function WhoHero2() {
 
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-6xl py-32 sm:py-48 lg:py-0 mt-32">
+      <div className="mx-auto max-w-6xl py-32 sm:py-48 lg:py-0 mt-32 text-center">
         <Container size="lg" py="xl">
           {/* <Group position="center">
           <Badge variant="filled" size="lg">
@@ -113,7 +120,6 @@ export function WhoHero2() {
             <Text
               // c="dimmed"
               className={classes.description}
-              ta="center"
               mt="md"
             >
               Access to accurate information and guidance is crucial for
