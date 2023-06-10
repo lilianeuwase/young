@@ -6,6 +6,7 @@ import Footer from "./components/footer/footer";
 import Contact from "./components/homepage/contact";
 import Interview from "./components/homepage/interview";
 import Header from "./components/navbar/header";
+import ScrollToTop from "./components/ScrollToTop";
 import MeetTheTeam from "./components/whoweare/team/meetTheTeam";
 import GalleryPage from "./pages/galleryPage";
 import HomePage from "./pages/homepage";
@@ -17,6 +18,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <ScrollToTop>
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -27,6 +29,7 @@ function App() {
           <Route path="/workwithus" element={<WorkWithUs />} />
         </Routes>
       </div>
+      </ScrollToTop>
       <div className="bg-white">
         <Contact />
       </div>

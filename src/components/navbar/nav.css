@@ -6,11 +6,11 @@
 }
 
 .hover-item:hover {
-    color: #4f938b;
+    color: #14b8a6;
 }
 
 .hover-item.active {
-    color: #4f938b;
+    color: #14b8a6;
     --offset: 1em;
     text-underline-offset: var(--offset, 1em);
     text-decoration: underline 2px;

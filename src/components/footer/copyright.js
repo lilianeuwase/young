@@ -18,7 +18,7 @@ const Copyright = () => {
           className='tracking-[0.02em] text-base'
         >
           &copy; 2023
-          <span className='font-semibold text-white'>RYVC.</span>
+          <span className='font-semibold text-white'> RYVC. </span>
           All rights reserved.
         </motion.div>
       </div>
