@@ -19,16 +19,16 @@ function App() {
     <Router>
       <Header />
       <ScrollToTop>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/gallery" element={<GalleryPage />} />
-          <Route path="/whoweare" element={<WhoWeAre />} />
-          <Route path="/ourprograms" element={<OurPrograms />} />
-          <Route path="/meettheteam" element={<MeetTheTeam />} />
-          <Route path="/workwithus" element={<WorkWithUs />} />
-        </Routes>
-      </div>
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/whoweare" element={<WhoWeAre />} />
+            <Route path="/ourprograms" element={<OurPrograms />} />
+            <Route path="/meettheteam" element={<MeetTheTeam />} />
+            <Route path="/workwithus" element={<WorkWithUs />} />
+          </Routes>
+        </div>
       </ScrollToTop>
       <div className="bg-white">
         <Contact />

@@ -10,7 +10,7 @@ const Aim = () => {
   return (
     <div className="bg-white" id="card">
       <div className="mx-auto max-w-7xl py-32 sm:py-48 lg:py-24">
-      <div className=" text-center section-title">
+        <div className=" text-center section-title">
           <h2> Our Values</h2>
         </div>
         <ul className="cards_items">
@@ -38,13 +38,13 @@ const Aim = () => {
           </li>
           <li className="cards_item">
             <CardItem5
-              photo={require("../../img/background/collaborate.png")}
-              title1="COLLABORATION"
-              subtitle1="The organization should work closely with other stakeholders, including healthcare providers, community leaders, and mental health professionals, to ensure that services are comprehensive, coordinated, and effective. Collaboration builds strong partnerships and networks that can promote mental health awareness and access."
-              blue="Work together"
-              icon1="Stakeholders"
-              icon2="Networks"
-              icon3="Communication"
+              photo={require("../../img/background/responsible.png")}
+              title1="ADVOCACY"
+              subtitle1="Speaking up for the rights and needs of the community, amplifying their voices, and advocating for social justice, equality, and positive systemic change."
+              blue="Express Your Views"
+              icon1="Speak "
+              icon2="Justice"
+              icon3="Equality"
             />
           </li>
         </ul>
@@ -69,6 +69,17 @@ const Aim = () => {
               icon1="Transparent "
               icon2="Accountable"
               icon3="Feedback"
+            />
+          </li>
+          <li className="cards_item">
+            <CardItem5
+              photo={require("../../img/background/collaborate.png")}
+              title1="COLLABORATION"
+              subtitle1="The organization should work closely with other stakeholders, including healthcare providers, community leaders, and mental health professionals, to ensure that services are comprehensive, coordinated, and effective. Collaboration builds strong partnerships and networks that can promote mental health awareness and access."
+              blue="Work together"
+              icon1="Stakeholders"
+              icon2="Networks"
+              icon3="Communication"
             />
           </li>
         </ul>

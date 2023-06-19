@@ -22,12 +22,12 @@ import {
 
 const mockdata = [
   {
-    title: "Engaging community members",
+    title: "Engaging community members in needs assessments and program design &planning (empathy, ideation, prototyping, and testing.)",
     icon: IconCreditCard,
     color: "violet",
   },
   {
-    title: "Building partnerships with local organizations",
+    title: "Building partnerships with local organizations and community leaders",
     icon: IconBuildingBank,
     color: "indigo",
   },
@@ -59,6 +59,9 @@ const useStyles = createStyles((theme) => ({
   title: {
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
     fontWeight: 700,
+    marginLeft: "auto",
+    marginRight: "auto",
+    
   },
 
   item: {
@@ -99,7 +102,7 @@ export function WhoIcons() {
         <Card withBorder radius="md" className={classes.card}>
           <Group position="apart">
             <Text className={classes.title}>
-              Project implementation stages:
+              Project implementation stages
             </Text>
             {/* <Anchor size="xs" color="dimmed" sx={{ lineHeight: 1 }}>
               4 stages

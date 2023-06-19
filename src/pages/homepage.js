@@ -13,6 +13,7 @@ import Stats from "../components/homepage/stats";
 import Aim from "../components/homepage/aim";
 import Exist from "../components/homepage/exist";
 import More from "../components/homepage/more";
+import Colors from "../components/colors"
 
 export default function HomePage() {
   return (
@@ -30,6 +31,7 @@ export default function HomePage() {
       {/* <Interview /> */}
       {/* <More/> */}
       {/* <Contact /> */}
+      {/* <Colors/> */}
     </div>
   );
 }
