@@ -94,7 +94,7 @@ export default function MonitorEv() {
                 Position
               </p>
               <p className="text-base text-gray-900">
-                implementing, and managing a robust M&E system to track progress
+              The Monitoring and Evaluation (M&E) Officer will be responsible for designing, implementing, and managing a robust M&E system to track progress
                 and outcomes of the organization's activities aimed at improving
                 mental health literacy and access to mental health services
                 among the LGBT community in Kigali. The ideal candidate will
