@@ -64,7 +64,7 @@ export default function MonitorEv() {
                 Organizational Background
               </p>
               <p className="text-base text-gray-900">
-                Organization that was founded in 2009. It is duly registered and
+              Rwanda Youth Voice for Change-RYVC is a non-political, non-governmental, and non-profit organization that was founded in 2009. It is duly registered and
                 recognized by the Rwanda Governance and collaborates with local
                 districts such as Rulindo in the Northern Province and Huye in
                 the Southern Province of Rwanda. We will prioritize
