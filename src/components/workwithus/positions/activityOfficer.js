@@ -68,7 +68,7 @@ export default function ActivityOfficer() {
               Rwanda Youth Voice for Change-RYVC is a non-political, non-governmental, and non-profit organization that was founded in 2009. It is duly registered and
                 recognized by the Rwanda Governance and collaborates with local
                 districts such as Rulindo in the Northern Province and Huye in
-                the Southern Province of Rwanda. We will prioritize
+                the Southern Province of Rwanda. The primary objective of this volunteer organization is to initiate programs that promote improved living standards for both youth and marginalized populations. We will prioritize
                 understanding and addressing their needs and concerns, and
                 ensuring that our programs are tailored to their specific
                 contexts and circumstances. By incorporating these principles

@@ -64,24 +64,25 @@ export default function MonitorEv() {
                 Organizational Background
               </p>
               <p className="text-base text-gray-900">
-              Rwanda Youth Voice for Change-RYVC is a non-political, non-governmental, and non-profit organization that was founded in 2009. It is duly registered and
-                recognized by the Rwanda Governance and collaborates with local
-                districts such as Rulindo in the Northern Province and Huye in
-                the Southern Province of Rwanda. We will prioritize
-                understanding and addressing their needs and concerns, and
-                ensuring that our programs are tailored to their specific
-                contexts and circumstances. By incorporating these principles
-                into our design, we are confident that our programs will be
-                effective, sustainable, and impactful, and will contribute to
-                the wellbeing and empowerment of our target groups. Vision: A
-                healthy and prosperous Rwanda where young people are empowered
-                to drive sustainable development and innovation. Mission
-                Statement: Our mission is to harness the power of data and
-                human-centered design to improve the health and wellbeing of
-                Rwandans, particularly youth and other under-served groups,
-                through innovative solutions, research, education, and
-                sustainable livelihoods, while also contributing to the
-                achievement of SDG 3. We believe in using evidence-based
+                Rwanda Youth Voice for Change-RYVC is a non-political,
+                non-governmental, and non-profit organization that was founded
+                in 2009. It is duly registered and recognized by the Rwanda
+                Governance and collaborates with local districts such as Rulindo
+                in the Northern Province and Huye in the Southern Province of
+                Rwanda. The primary objective of this volunteer organization is to initiate programs that promote improved living standards for both youth and marginalized populations. We will prioritize understanding and addressing their
+                needs and concerns, and ensuring that our programs are tailored
+                to their specific contexts and circumstances. By incorporating
+                these principles into our design, we are confident that our
+                programs will be effective, sustainable, and impactful, and will
+                contribute to the wellbeing and empowerment of our target
+                groups. Vision: A healthy and prosperous Rwanda where young
+                people are empowered to drive sustainable development and
+                innovation. Mission Statement: Our mission is to harness the
+                power of data and human-centered design to improve the health
+                and wellbeing of Rwandans, particularly youth and other
+                under-served groups, through innovative solutions, research,
+                education, and sustainable livelihoods, while also contributing
+                to the achievement of SDG 3. We believe in using evidence-based
                 approaches to drive decision-making and advocacy efforts, in
                 collaboration with other stakeholders and communities. By
                 leveraging the latest technologies and working closely with our
@@ -94,14 +95,15 @@ export default function MonitorEv() {
                 Position
               </p>
               <p className="text-base text-gray-900">
-              The Monitoring and Evaluation (M&E) Officer will be responsible for designing, implementing, and managing a robust M&E system to track progress
-                and outcomes of the organization's activities aimed at improving
-                mental health literacy and access to mental health services
-                among the LGBT community in Kigali. The ideal candidate will
-                have experience in monitoring and evaluation, data analysis, and
-                report writing. They should be passionate about promoting mental
-                health and wellbeing and have a strong commitment to serving
-                marginalized communities.
+                The Monitoring and Evaluation (M&E) Officer will be responsible
+                for designing, implementing, and managing a robust M&E system to
+                track progress and outcomes of the organization's activities
+                aimed at improving mental health literacy and access to mental
+                health services among the LGBT community in Kigali. The ideal
+                candidate will have experience in monitoring and evaluation,
+                data analysis, and report writing. They should be passionate
+                about promoting mental health and wellbeing and have a strong
+                commitment to serving marginalized communities.
               </p>
             </div>
             <div className="space-y-2 mt-10">
@@ -112,23 +114,30 @@ export default function MonitorEv() {
           </div>
           <div className="mt-4 mb-8">
             <h3 className="text-base font-bold text-gray-900">
-            M&E System Design and Implementation
+              M&E System Design and Implementation
             </h3>
             <div className="mt-4">
               <ul role="list" className="list-disc space-y-2 pl-4 text-base">
                 <li>
                   <span>
-                  Design and implement a comprehensive M&E system to track progress and outcomes of the organization's activities aimed at improving mental health literacy and access to mental health services among the LGBT community in Kigali.
+                    Design and implement a comprehensive M&E system to track
+                    progress and outcomes of the organization's activities aimed
+                    at improving mental health literacy and access to mental
+                    health services among the LGBT community in Kigali.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Develop M&E tools, including data collection forms, survey instruments, and data management systems, and ensure that they are standardized and aligned with program goals and objectives.
+                    Develop M&E tools, including data collection forms, survey
+                    instruments, and data management systems, and ensure that
+                    they are standardized and aligned with program goals and
+                    objectives.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Train staff and volunteers on M&E tools and processes to ensure that data is collected consistently and accurately.
+                    Train staff and volunteers on M&E tools and processes to
+                    ensure that data is collected consistently and accurately.
                   </span>
                 </li>
               </ul>
@@ -137,23 +146,28 @@ export default function MonitorEv() {
 
           <div className="mt-4 mb-8">
             <h3 className="text-base font-bold text-gray-900">
-            Data Collection, Analysis, and Reporting
+              Data Collection, Analysis, and Reporting
             </h3>
             <div className="mt-4">
               <ul role="list" className="list-disc space-y-2 pl-4 text-base">
                 <li>
                   <span>
-                  Collect and analyze data on program activities, outputs, and outcomes using established M&E tools and processes.
+                    Collect and analyze data on program activities, outputs, and
+                    outcomes using established M&E tools and processes.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Use statistical software to analyze and interpret data and prepare reports on program performance, including progress toward goals and objectives, challenges encountered, and recommendations for improvement.
+                    Use statistical software to analyze and interpret data and
+                    prepare reports on program performance, including progress
+                    toward goals and objectives, challenges encountered, and
+                    recommendations for improvement.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Ensure that M&E data is used to inform program development and improvement.
+                    Ensure that M&E data is used to inform program development
+                    and improvement.
                   </span>
                 </li>
               </ul>
@@ -162,18 +176,22 @@ export default function MonitorEv() {
 
           <div className="mt-4 mb-8">
             <h3 className="text-base font-bold text-gray-900">
-            Quality Assurance
+              Quality Assurance
             </h3>
             <div className="mt-4">
               <ul role="list" className="list-disc space-y-2 pl-4 text-base">
                 <li>
                   <span>
-                  Conduct regular quality assurance checks to ensure that data collection, management, and reporting processes are standardized and comply with established protocols and procedures.
+                    Conduct regular quality assurance checks to ensure that data
+                    collection, management, and reporting processes are
+                    standardized and comply with established protocols and
+                    procedures.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Develop and implement corrective action plans to address data quality issues as needed.
+                    Develop and implement corrective action plans to address
+                    data quality issues as needed.
                   </span>
                 </li>
               </ul>
@@ -182,18 +200,22 @@ export default function MonitorEv() {
 
           <div className="mt-4 mb-8">
             <h3 className="text-base font-bold text-gray-900">
-            Stakeholder Engagement
+              Stakeholder Engagement
             </h3>
             <div className="mt-4">
               <ul role="list" className="list-disc space-y-2 pl-4 text-base">
                 <li>
                   <span>
-                  Collaborate with program staff, stakeholders, and partners to identify data needs and develop appropriate M&E strategies to meet those needs.
+                    Collaborate with program staff, stakeholders, and partners
+                    to identify data needs and develop appropriate M&E
+                    strategies to meet those needs.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Develop and maintain positive working relationships with stakeholders to ensure that M&E data is used to inform program development and improvement.
+                    Develop and maintain positive working relationships with
+                    stakeholders to ensure that M&E data is used to inform
+                    program development and improvement.
                   </span>
                 </li>
               </ul>
@@ -208,43 +230,49 @@ export default function MonitorEv() {
               <ul role="list" className="list-disc space-y-2 pl-4 text-base">
                 <li>
                   <span>
-                  Bachelor's degree in nursing, public health, epidemiology, statistics, or a related field.
+                    Bachelor's degree in nursing, public health, epidemiology,
+                    statistics, or a related field.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Minimum of 2 years of experience in monitoring and evaluation, data analysis, or program management.
+                    Minimum of 2 years of experience in monitoring and
+                    evaluation, data analysis, or program management.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Having served as RYVC volunteer for at least two years.
+                    Having served as RYVC volunteer for at least two years.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Strong analytical and data management skills, with proficiency in statistical software such as SPSS or STATA.
+                    Strong analytical and data management skills, with
+                    proficiency in statistical software such as SPSS or STATA.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Experience designing and implementing M&E systems for public health or social programs.
+                    Experience designing and implementing M&E systems for public
+                    health or social programs.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Ability to communicate complex data in a clear and concise manner, both orally and in writing.
+                    Ability to communicate complex data in a clear and concise
+                    manner, both orally and in writing.
                   </span>
                 </li>
                 <li>
                   <span>
-                  Strong organizational and interpersonal skills, with the ability to work collaboratively and independently in a fast-paced environment.
+                    Strong organizational and interpersonal skills, with the
+                    ability to work collaboratively and independently in a
+                    fast-paced environment.
                   </span>
                 </li>
                 <li>
                   <span>Fluency in English and Kinyarwanda.</span>
                 </li>
-              
               </ul>
             </div>
           </div>
