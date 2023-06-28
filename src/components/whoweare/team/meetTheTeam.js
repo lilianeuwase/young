@@ -63,6 +63,7 @@ export default function MeetTheTeam() {
             </li>
           ))}
         </ul>
+        {/* <MeetTheTeam/> */}
       </div>
     </div>
   );

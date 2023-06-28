@@ -8,6 +8,9 @@ import Interview from "./components/homepage/interview";
 import Header from "./components/navbar/header";
 import ScrollToTop from "./components/ScrollToTop";
 import MeetTheTeam from "./components/whoweare/team/meetTheTeam";
+import ActivityOfficer from "./components/workwithus/positions/activityOfficer";
+import FinancialOfficer from "./components/workwithus/positions/financialOfficer";
+import MonitorEv from "./components/workwithus/positions/monitorEv";
 import GalleryPage from "./pages/galleryPage";
 import HomePage from "./pages/homepage";
 import OurPrograms from "./pages/ourPrograms";
@@ -27,6 +30,9 @@ function App() {
             <Route path="/ourprograms" element={<OurPrograms />} />
             <Route path="/meettheteam" element={<MeetTheTeam />} />
             <Route path="/workwithus" element={<WorkWithUs />} />
+            <Route path="/workwithus/activityofficer" element={<ActivityOfficer />} />
+            <Route path="/workwithus/monitoringandevaluationofficer" element={<MonitorEv />} />
+            <Route path="/workwithus/financialofficer" element={<FinancialOfficer />} />
           </Routes>
         </div>
       </ScrollToTop>

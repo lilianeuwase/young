@@ -60,7 +60,7 @@ export default function DropDown() {
                 </a>
               )}
             </Menu.Item>
-            <Menu.Item>
+            {/* <Menu.Item>
               {({ active }) => (
                 <a
                   href="/partners"
@@ -72,7 +72,7 @@ export default function DropDown() {
                   OUR PARTNERS
                 </a>
               )}
-            </Menu.Item>
+            </Menu.Item> */}
           </div>
         </Menu.Items>
       </Transition>
