@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Copyright from "./components/footer/copyright";
 import Footer from "./components/footer/footer";
+import Partners from "./components/footer/partners";
 import Contact from "./components/homepage/contact";
 import Interview from "./components/homepage/interview";
 import Header from "./components/navbar/header";
@@ -39,6 +40,7 @@ function App() {
       <div className="bg-white">
         <Contact />
       </div>
+      <Partners/>
       <Interview />
       <Footer />
       <Copyright />
