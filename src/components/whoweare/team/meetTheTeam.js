@@ -102,6 +102,7 @@ export default function MeetTheTeam() {
             </li>
           ))}
         </ul>
+        
         <div className="max-w-2xl mt-8">
           {/* <h2 className="text-xl font-bold tracking-tight text-black sm:text-2xl uppercase text-center">
           Key member of the executive committee

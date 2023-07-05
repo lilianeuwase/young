@@ -34,6 +34,7 @@ const useStyles = createStyles((theme) => ({
     backgroundColor: theme.fn.variant({
       variant: "light",
       color: theme.primaryColor,
+      // color:theme.colors.blue[2],
     }).background,
     borderRadius: theme.radius.sm,
     padding: `${rem(4)} ${rem(4)}`,
@@ -90,7 +91,7 @@ export function Prog4() {
   ));
 
   return (
-    <div className="bg-white">
+    <div className="bg-gray-50">
       <div className="mx-auto max-w-6xl py-32 sm:py-48 lg:py-16">
         <div className={classes.wrapper}>
           <Grid gutter={80}>
