@@ -11,7 +11,7 @@ import Background from "../../img/background/back10.jpeg";
 
 import { CheckIcon } from "@heroicons/react/20/solid";
 
-const includedFeatures = ["Health", "Research", "Education", "SDG"];
+const includedFeatures = ["Health", "Research", "Education", "SDG-3"];
 
 const useStyles = createStyles((theme) => ({
   hero: {

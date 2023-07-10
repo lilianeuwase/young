@@ -11,8 +11,8 @@ const data = [
   },
   {
     icon: "fa fa-notes-medical",
-    title: "Health",
-    text: "Promote sustainable livelihoods and climate-resilient communities through integrated health and livelihood intervention.",
+    title: "Promote",
+    text: "Promote sustainable livelihoods and climate-resilient communities through integrated health and livelihood interventions.",
   },
   {
     icon: "fa fa-magic",
@@ -21,8 +21,8 @@ const data = [
   },
   {
     icon: "fa fa-chart-line",
-    title: "Promote",
-    text: "Promote innovative approaches to addressing health challenges in Rwanda, with a focus on non-communicable diseases.",
+    title: "Innovate",
+    text: "Promote innovative approaches to addressing health challenges in Rwanda, with a focus on NCDs and health prmotion.",
   },
 ];
 
@@ -38,7 +38,7 @@ const Aim = () => {
             <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
               {" "}
               <i className={d.icon}></i>
-              <h3>{d.title}</h3>
+              <h3 className="text-white">{d.title}</h3>
               <p>{d.text}</p>
             </div>
           ))}

@@ -40,7 +40,7 @@ const Aim = () => {
             <CardItem5
               photo={require("../../img/background/responsible.png")}
               title1="ADVOCACY"
-              subtitle1="Speaking up for the rights and needs of the community, amplifying their voices, and advocating for social justice, equality, and positive systemic change."
+              subtitle1="The organization should speak up for the rights and needs of the community, amplify their voices, and advocate for social justice, equality, and positive systemic change."
               blue="Express Your Views"
               icon1="Speak "
               icon2="Justice"

@@ -305,7 +305,7 @@ export const footerData = {
     title: "Useful links",
     items: [
       { href: "/whoweare", name: "Who we are" },
-      { href: "/gallery", name: "Our gallery" },
+      // { href: "/gallery", name: "Our gallery" },
       { href: "/ourprograms", name: "Our programs" },
       { href: "/workwithus", name: "Work with us" },
     ],

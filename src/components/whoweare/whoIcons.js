@@ -22,17 +22,17 @@ import {
 
 const mockdata = [
   {
-    title: "Engaging community members in needs assessments and program design &planning (empathy, ideation, prototyping, and testing.)",
+    title: "Engaging community members in needs assessment and program designing & planning (empathy, ideation, prototyping, and testing.)",
     icon: IconCreditCard,
     color: "violet",
   },
   {
-    title: "Building partnerships with local organizations and community leaders",
+    title: "Building partnerships with local organizations and community leaders.",
     icon: IconBuildingBank,
     color: "indigo",
   },
   {
-    title: "Using technology and data to support health interventions",
+    title: "Using technology and data to support health interventions.",
     icon: IconRepeat,
     color: "blue",
   },

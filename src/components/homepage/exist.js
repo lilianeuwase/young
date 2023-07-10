@@ -28,12 +28,15 @@ function Exist() {
           <h2> Why do we exist</h2>
         </div>
         <p className="mt-6 mb-16 text-xl text-gray-600 font-bold tracking-[1.2px] text-center">
-          One significant problem facing many young people around the world is
-          the lack of access to education, to quality and friendly healthcare
+          {/* One significant problem faced by  */}
+          Many young people around the world
+          lack access to education, livelihood opportunities, quality and friendly healthcare
           services. This can be due to a range of factors, including inadequate
           infrastructure, shortage of healthcare workers, limited financial
           resources, and cultural or social barriers that prevent young people
           from seeking care.
+
+
         </p>
       </div>
       <div class="tile is-ancestor ">
@@ -107,7 +110,7 @@ function Exist() {
                       image={require("../../img/icons/Tiredness-rafiki.png")}
                       overline="Livelihood"
                       title="Livelihood"
-                      body="Livelihood issues among youth and marginalized people in Rwanda are a significant concern. According National Institute of Statistics of Rwanda, youth unemployment stands at 29.7%. Limited access to employment opportunities, skills development, and financial resources hinder their ability to improve their living standards."
+                      body="Livelihood issues among youth and marginalized people in Rwanda are a significant concern. According to the National Institute of Statistics of Rwanda, youth unemployment stands at 29.7%. Limited access to employment opportunities, skills development, and financial resources hinder their ability to improve their living standards."
                       color="#48bcb1"
                     />
                   </article>

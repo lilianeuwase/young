@@ -33,7 +33,7 @@ const MoreIntro = () => {
                   a catalyst for positive change. Every action we take is
                   intended to inspire meaningful service and deliver results
                   that will improve economic and social conditions and make life
-                  better for Rwandese young generation and marginalized groups
+                  better for the youth and marginalized groups
                   in the communities we serve for years to come. We seek
                   grassroots solutions to local challenges in an effort to help
                   people help themselves.{" "}
