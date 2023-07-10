@@ -28,7 +28,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/src/img/background/back7.jpeg')",
-        about: "url('/src/img/about/image.png')",
+        about: "url('/src/img/background/back9.jpeg')",
         interview: "url('/src/img/background/back1.jpeg')",
         moreIntro: "url('/src/img/background/blackkid2.jpeg')",
       },
