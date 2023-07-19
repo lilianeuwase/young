@@ -1,5 +1,5 @@
 // import images
-import Logo from "../src/img/header/logo RYC.png";
+import Logo from "../src/img/header/Final Logo.jpeg";
 import GalleryImg1 from "../src/img/background/back1.jpeg";
 import GalleryImg2 from "../src/img/background/back2.jpeg";
 import GalleryImg3 from "../src/img/background/back3.jpeg";
@@ -62,7 +62,7 @@ export const heroData = {
   subtitle2:
     "The primary objective of this organization is to initiate programs that promote improved living standards for both youth and marginalized populations.",
   subtitle1:
-    "RYVC Is a non-Political, non-Governmental, and non-Profit organization that was founded in 2009; It is duly registered and recognized by the Rwanda Governance Board. ",
+    "RYVC is a non-Political, non-Governmental, and non-Profit organization that was founded in 2009; It is duly registered and recognized by the Rwanda Governance Board. ",
   btnText: "Our Programs",
   btnIcon: <IoMdArrowForward />,
   href: "/ourprograms",
@@ -244,7 +244,7 @@ export const contactData = {
         "In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus",
       address: {
         icon: <FaMapMarkerAlt />,
-        name: "Kigali, Rwanda",
+        name: "KN 3 AV 31, 3rd Floor, Kigali, Rwanda",
       },
       phone: {
         icon: <FaPhoneAlt />,

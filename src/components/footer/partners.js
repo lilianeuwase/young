@@ -5,14 +5,14 @@ export default function Partners() {
         <h2 className="text-center text-2xl font-bold tracking-tight sm:text-4xl uppercase mb-16">
           Our Partners
         </h2>
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+        <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           <a
             href="https://amplifychange.org/about/ "
             target="_blank"
             rel="noreferrer"
           >
             <img
-              className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+              className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
               src={require("../../img/partners/amplify.png")}
               alt="Amplify"
               width={158}
@@ -25,7 +25,7 @@ export default function Partners() {
             rel="noreferrer"
           >
             <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
               src={require("../../img/partners/astra.png")}
               alt="Astra"
               width={158}
@@ -38,7 +38,7 @@ export default function Partners() {
             rel="noreferrer"
           >
             <img
-              className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+              className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
               src={require("../../img/partners/iidea.png")}
               alt="Iidea"
               width={158}
@@ -51,22 +51,9 @@ export default function Partners() {
             rel="noreferrer"
           >
             <img
-              className="col-span-2 max-h-16 w-full object-contain sm:col-start-2 lg:col-span-1"
+              className="col-span-2 max-h-24 w-full object-contain sm:col-start-2 lg:col-span-1"
               src={require("../../img/partners/inroad.png")}
               alt="Inroad"
-              width={158}
-              height={48}
-            />
-          </a>
-          <a
-            href="https://www.mtvstayingalive.org/ "
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="col-span-2 col-start-2 max-h-16 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src={require("../../img/partners/mtv.png")}
-              alt="MTV"
               width={158}
               height={48}
             />
@@ -75,7 +62,7 @@ export default function Partners() {
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           <a href="https://spidercenter.org/ " target="_blank" rel="noreferrer">
             <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
               src={require("../../img/partners/Screenshot 2023-06-26 at 4.32.53 PM.png")}
               alt="Spider"
               width={158}
@@ -101,7 +88,7 @@ export default function Partners() {
             rel="noreferrer"
           >
             <img
-              className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+              className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
               src={require("../../img/partners/step.png")}
               alt="Step"
               width={158}

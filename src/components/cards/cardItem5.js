@@ -62,7 +62,6 @@ export function CardItem5(props) {
     { label: props.icon1, icon: IconUsers },
     { label: props.icon2, icon: IconGauge },
     { label: props.icon3, icon: IconManualGearbox },
-    // { label: props.icon4, icon: IconGasStation },
   ];
 
   const { classes } = useStyles();
@@ -75,46 +74,30 @@ export function CardItem5(props) {
 
   return (
     <Card withBorder radius="md" className={classes.card}>
-      {/* <Card.Section className={classes.imageSection}>
-        <Image src={props.photo} />
-      </Card.Section> */}
-
       <Group position="apart" mt="md">
         <div>
-          <Text fz={20} fw={700}>{props.title1}</Text>
+          <div className="mb-4">
+            <Badge
+              classname="mb-4"
+              fz={15}
+              fw={700}
+              color="teal"
+              variant="outline"
+            >
+              {props.title1}
+            </Badge>
+          </div>
           <Text fz={14} c="dimmed">
             {props.subtitle1}
           </Text>
         </div>
-        <Badge color="teal" variant="outline">{props.blue}</Badge>
       </Group>
 
       <Card.Section className={classes.section} mt="md">
-        {/* <Text fz="sm" c="dimmed" className={classes.label}>
-          {props.title2}
-        </Text> */}
-
         <Group spacing={8} mb={-8}>
           {features}
         </Group>
       </Card.Section>
-
-      {/* <Card.Section className={classes.section}>
-        <Group spacing={30}>
-          <div>
-            <Text fz="xl" fw={700} sx={{ lineHeight: 1 }}>
-              {props.title3}
-            </Text>
-            <Text fz="sm" c="dimmed" fw={500} sx={{ lineHeight: 1 }} mt={3}>
-              {props.subtitle3}
-            </Text>
-          </div>
-
-          <Button radius="xl" style={{ flex: 1 }}>
-            {props.title4}
-          </Button>
-        </Group>
-      </Card.Section> */}
     </Card>
   );
 }

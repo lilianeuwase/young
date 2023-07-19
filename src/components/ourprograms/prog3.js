@@ -11,12 +11,12 @@ const data = [
   },
   {
     icon: "fa fa-print",
-    title: "Our early childhood education program will provide comprehensive and developmentally appropriate education for children aged 3-6 years.",
+    title: "Our early childhood education segment will provide comprehensive and developmentally appropriate education for children aged 3-6 years.",
     text: "Promote sustainable livelihoods and climate-resilient communities through integrated health and livelihood intervention.",
   },
   {
     icon: "fa fa-barcode",
-    title: "Our STEM education program will provide innovative and engaging learning experiences in science, technology, engineering, and mathematics.",
+    title: "Our STEM education segment will provide innovative and engaging learning experiences in science, technology, engineering, and mathematics.",
     text: "Improve access to quality education, particularly in early childhood education and STEM education, to promote lifelong learning.",
   },
   {

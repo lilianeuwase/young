@@ -15,7 +15,7 @@ const mockdata = [
   {
     title: "Data Access",
     description:
-      "Having access to relevant data can help stakeholders make informed decisions, identify areas of need, and design interventions that are more likely to have a positive impact.",
+      "Having access to relevant data will help stakeholders make informed decisions, identify areas of need, and design interventions that are more likely to have a positive impact.",
     icon: IconGauge,
   },
   {

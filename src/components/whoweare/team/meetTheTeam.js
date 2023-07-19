@@ -29,18 +29,18 @@ const board = [
     imageUrl:
     deo,
   },
-  {
-    name: "Dr. Desire Habonimana",
-    role: "Secretary ",
-    // imageUrl:
-    //   desire,
-  },
-  {
-    name: "Dr. Christian Mazimpaka",
-    role: "Member ",
-    // imageUrl:
-    //   chris,
-  },
+  // {
+  //   name: "Dr. Desire Habonimana",
+  //   role: "Secretary ",
+  //   imageUrl:
+  //     desire,
+  // },
+  // {
+  //   name: "Dr. Christian Mazimpaka",
+  //   role: "Member ",
+  //   imageUrl:
+  //     chris,
+  // },
 ];
 
 const staff = [
@@ -50,12 +50,12 @@ const staff = [
     imageUrl:
     gisele,
   },
-  {
-    name: "Diane Izabayo",
-    role: "",
-    imageUrl:
-      diane,
-  },
+  // {
+  //   name: "Diane Izabayo",
+  //   role: "",
+  //   imageUrl:
+  //     diane,
+  // },
   {
     name: "Liliane Uwase",
     role: "IT & Communications Manager",
@@ -86,7 +86,7 @@ export default function MeetTheTeam() {
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img
-                  className="h-32 w-32"
+                  className="h-40 w-40"
                   src={person.imageUrl}
                   alt=""
                 />
@@ -119,7 +119,7 @@ export default function MeetTheTeam() {
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img
-                  className="h-32 w-32"
+                  className="h-40 w-40"
                   src={person.imageUrl}
                   alt=""
                 />
@@ -151,7 +151,7 @@ export default function MeetTheTeam() {
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img
-                  className="h-32 w-32"
+                  className="h-40 w-40"
                   src={person.imageUrl}
                   alt=""
                 />

@@ -14,6 +14,9 @@ import {
   IconFlame,
   IconCircleDotted,
   IconFileCode,
+  IconAxe,
+  IconAbacus,
+  IconActivity,
 } from "@tabler/icons-react";
 
 const useStyles = createStyles((theme) => ({
@@ -43,28 +46,28 @@ const useStyles = createStyles((theme) => ({
 
 const features = [
   {
-    icon: IconReceiptOff,
+    icon: IconAbacus,
     title: "Livelihoods and Health Promotion",
     description:
-      "This program could provide training and support to individuals and communities to promote healthy lifestyles and sustainable livelihoods",
+      "This program provides training and support to individuals and communities to improve healthy lifestyles through sustainable livelihoods",
   },
   {
-    icon: IconFileCode,
+    icon: IconActivity,
     title: "Climate Change and Health",
     description:
-      "This program could work to raise awareness about the impact of climate change on health and promote adaptation strategies that can mitigate these impacts.",
+      "This program works to raise awareness about the impact of climate change on health and promote adaptation strategies that can mitigate these impacts.",
   },
   {
-    icon: IconCircleDotted,
+    icon: IconAxe,
     title: "Disaster Preparedness and Response",
     description:
-      "This program could provide training and resources to help communities prepare for and respond to natural disasters and other emergencies.",
+      "This program provides training and resources to help communities prepare for and respond to natural disasters and other emergencies.",
   },
   {
     icon: IconFlame,
     title: "Overall TARGET",
     description:
-      "We will collaborate with local communities, parents, and educators to design and implement effective early childhood education programs.",
+      "We collaborate with local communities, parents, and educators to design and implement sustainable livelihood interventions.",
   },
 ];
 

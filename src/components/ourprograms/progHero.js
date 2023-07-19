@@ -100,13 +100,14 @@ export function ProgHero() {
                 Innovations program
               </Title>
             </h1>
-            <Text mt="md">
-              This program aims to improve access to quality health services and
-              innovation for vulnerable populations. The program focuses on
-              addressing mental health, non-communicable diseases (NCDs), sexual
-              and reproductive health and rights (SRHR), and HIV.
-            </Text>
-
+            <div className="mb-12">
+              <Text mt="md">
+                This program aims to improve access to quality health services
+                and innovation for vulnerable populations. The program focuses
+                on addressing mental health, non-communicable diseases (NCDs),
+                sexual and reproductive health and rights (SRHR), and HIV.
+              </Text>
+            </div>
             <List
               mt={30}
               spacing="sm"
@@ -122,19 +123,21 @@ export function ProgHero() {
                 of mental health conditions by promoting early detection,
                 treatment, and management
               </List.Item>
-              <List.Item>
+              {/* <List.Item>
                 <b>We will prioritize</b> – the integration of mental health
                 services into primary healthcare systems and community-based
                 services to increase access and reduce stigma.
-              </List.Item>
+              </List.Item> */}
               <List.Item>
                 <b>The program will also focus</b> – on the prevention and
                 control of NCDs such as diabetes, hypertension, and cancer.
               </List.Item>
               <List.Item>
                 <b> We will work with</b> – communities and health systems to
-                promote healthy lifestyles and improve access to diagnosis,
-                treatment, and management of NCDs.
+                promote healthy lifestyles and improve access to SRHR,
+                information, services, and resources.
+                {/* diagnosis,
+                treatment, and management of NCDs. */}
               </List.Item>
             </List>
 
