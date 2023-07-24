@@ -91,7 +91,8 @@ export function ProgHero() {
   const { classes } = useStyles();
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-6xl py-32 sm:py-48 lg:py-16">
+      <div className="mx-auto max-w-6xl sm:py-48 lg:py-0 ">
+      
         <div className={classes.inner}>
           <div className={classes.content}>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase">

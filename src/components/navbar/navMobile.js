@@ -1,8 +1,9 @@
 import React from 'react';
-// import nav data
-import { navData } from '../../data';
 // import components
-import Socials from './socials';
+import Socials from "./socials";
+// import nav data
+import { navData } from "../../data";;
+
 
 const NavMobile = () => {
   // destructure nav data

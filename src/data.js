@@ -40,13 +40,13 @@ export const navDataWork = {
   items: [{ href: "/workwithus", name: "Work with us" }],
 };
 export const navData = {
-  items: [{ href: "/", name: "Home" }],
-  items: [{ href: "/whoweare", name: "Our Approach" }],
-  items: [{ href: "/ourteam", name: "Our Team" }],
-  items: [{ href: "/partners", name: "Our Partners" }],
-  items: [{ href: "/ourprograms", name: "Our programs" }],
-  items: [{ href: "/workwithus", name: "Work with us" }],
-
+  items: [
+    { href: '/', name: 'Home' },
+    { href: '/whoweare', name: 'Our Approach' },
+    { href: '/meettheteam', name: 'Our Team' },
+    { href: '/ourprograms', name: 'Our Programs' },
+    { href: '/workwithus', name: 'Work With Us' },
+  ],
 };
 
 export const socialData = [
@@ -290,7 +290,7 @@ export const footerData = {
       "Non-political, non-governmental, and non-profit organization that was founded in 2009",
     address: {
       icon: <FaMapMarkerAlt />,
-      name: "Kigali, Rwanda",
+      name: "KN 3 AV 31, 3rd Floor, Kigali, Rwanda",
     },
     phone: {
       icon: <FaPhoneAlt />,

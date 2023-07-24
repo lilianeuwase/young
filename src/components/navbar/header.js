@@ -34,12 +34,18 @@ const Header = () => {
           <img className="w-[130px] h-[110px]" src={logo} alt="" />
         </a>
         {/* nav - initially is hidden - show on desktop*/}
-        {/* <div className="hidden xl:flex"> */}
-        <NavHome />
-        <DropDown />
-        <NavProg />
-        <NavWork />
-        {/* </div> */}
+        <div className="hidden xl:flex">
+          <NavHome />
+        </div>
+        <div className="hidden xl:flex">
+          <DropDown />
+        </div>
+        <div className="hidden xl:flex">
+          <NavProg />
+        </div>
+        <div className="hidden xl:flex">
+          <NavWork />
+        </div>
         {/* nav menu btn - is showing by default - hidden on desktop mode */}
         <div
           onClick={() => setNavMobile(!navMobile)}

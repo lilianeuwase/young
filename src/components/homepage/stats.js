@@ -64,16 +64,17 @@ const Stats = () => {
   };
 
   return (
+    
     <motion.section
       variants={fadeIn("up")}
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0.1 }}
       ref={ref}
-      className="mb-32 font-primary"
+      className="mb-32 font-primary "
     >
       <div className="container mx-auto mt-20">
-        <div className="flex flex-col xl:flex-row justify-between items-center gap-y-12">
+        <div className="xl:flex flex-col xl:flex-row justify-between items-center gap-y-12">
           <div className="w-[150px] lg:w-[150px] flex flex-col justify-center items-center gap-y-6">
             <CircularProgressbar
               strokeWidth={1}
