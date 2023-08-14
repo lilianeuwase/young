@@ -46,6 +46,21 @@ export default function DropDown() {
                   OUR APPROACH
                 </a>
               )}
+              
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <NavLink
+                  to="/whoweare"
+                  className={classNames(
+                    active ? "bg-teal-50 text-teal-700" : "text-gray-700",
+                    "block px-4 pt-2 text-sm"
+                  )}
+                >
+                  OUR APPROACH
+                </NavLink>
+              )}
+              
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
