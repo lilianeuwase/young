@@ -36,20 +36,6 @@ export default function DropDown() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/whoweare"
-                  className={classNames(
-                    active ? "bg-teal-50 text-teal-700" : "text-gray-700",
-                    "block px-4 pt-2 text-sm"
-                  )}
-                >
-                  OUR APPROACH
-                </a>
-              )}
-              
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
                 <NavLink
                   to="/whoweare"
                   className={classNames(
@@ -62,17 +48,31 @@ export default function DropDown() {
               )}
               
             </Menu.Item>
+            {/* <Menu.Item>
+              {({ active }) => (
+                <NavLink
+                  to="/whoweare"
+                  className={classNames(
+                    active ? "bg-teal-50 text-teal-700" : "text-gray-700",
+                    "block px-4 pt-2 text-sm"
+                  )}
+                >
+                  OUR APPROACH
+                </NavLink>
+              )}
+              
+            </Menu.Item> */}
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/meettheteam"
+                <NavLink
+                  to="/meettheteam"
                   className={classNames(
                     active ? "bg-teal-50 text-gray-900" : "text-gray-700",
                     "block px-4 pb-2 text-sm"
                   )}
                 >
                   OUR TEAM
-                </a>
+                </NavLink>
               )}
             </Menu.Item>
             {/* <Menu.Item>

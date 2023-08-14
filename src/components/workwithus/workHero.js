@@ -5,6 +5,7 @@ import {
   Image,
   rem,
 } from "@mantine/core";
+import { Link } from "react-router-dom";
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -105,11 +106,11 @@ export function WorkHero() {
             </Text>
 
             <div>
-              <a href="/workwithus/activityofficer">
+              <Link to="/workwithus/activityofficer">
                 <button class="flex w-40 justify-center rounded-md bg-teal-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600 mt-4">
                   APPLY
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <Image
@@ -138,11 +139,11 @@ export function WorkHero() {
             </Text>
 
             <div>
-              <a href="/workwithus/monitoringandevaluationofficer">
+              <Link to="/workwithus/monitoringandevaluationofficer">
                 <button class="flex w-40 justify-center rounded-md bg-teal-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600 mt-4">
                   APPLY
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <Image
@@ -170,11 +171,11 @@ export function WorkHero() {
             </Text>
 
             <div>
-              <a href="/workwithus/financialofficer">
+              <Link to="/workwithus/financialofficer">
                 <button class="flex w-40 justify-center rounded-md bg-teal-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600 mt-4">
                   APPLY
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <Image
