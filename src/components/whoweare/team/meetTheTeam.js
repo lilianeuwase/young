@@ -4,7 +4,7 @@ let deo = require("../../../img/team/Deogratias.png");
 let desire = require("../../../img/team/lili.jpg");
 let chris = require("../../../img/team/lili.jpg");
 let gisele = require("../../../img/team/Gisele Iyakaremye.jpg");
-let diane = require("../../../img/team/Diane_I-removebg-preview.png");
+let diane = require("../../../img/team/Diane.JPG");
 let liliane = require("../../../img/team/lili.jpg");
 
 const exec = [
@@ -50,12 +50,12 @@ const staff = [
     imageUrl:
     gisele,
   },
-  // {
-  //   name: "Diane Izabayo",
-  //   role: "",
-  //   imageUrl:
-  //     diane,
-  // },
+  {
+    name: "Diane Izabayo",
+    role: "",
+    imageUrl:
+      diane,
+  },
   {
     name: "Liliane Uwase",
     role: "IT & Communications Manager",
@@ -119,7 +119,7 @@ export default function MeetTheTeam() {
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img
-                  className="h-40 w-40"
+                  className="h-40 w-30"
                   src={person.imageUrl}
                   alt=""
                 />
@@ -151,7 +151,7 @@ export default function MeetTheTeam() {
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img
-                  className="h-40 w-40"
+                  className="h-40 w-30"
                   src={person.imageUrl}
                   alt=""
                 />
