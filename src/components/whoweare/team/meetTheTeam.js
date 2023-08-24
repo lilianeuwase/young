@@ -46,13 +46,13 @@ const board = [
 const staff = [
   {
     name: "Gisele Iyakaremye",
-    role: "",
+    role: "Financial Officer",
     imageUrl:
     gisele,
   },
   {
     name: "Diane Izabayo",
-    role: "",
+    role: "Activity Officer",
     imageUrl:
       diane,
   },
