@@ -2,7 +2,7 @@ let jeanpaul = require("../../../img/team/Jean Paul Ndayizeye.JPG");
 let gabriel = require("../../../img/team/gabriel.png");
 let deo = require("../../../img/team/Deogratias.png");
 let desire = require("../../../img/team/lili.jpg");
-let chris = require("../../../img/team/lili.jpg");
+let chris = require("../../../img/team/Christian Mazimpaka.jpeg");
 let gisele = require("../../../img/team/Gisele Iyakaremye.jpg");
 let diane = require("../../../img/team/Diane.JPG");
 let liliane = require("../../../img/team/lili.jpg");
@@ -10,7 +10,7 @@ let liliane = require("../../../img/team/lili.jpg");
 const exec = [
   {
     name: "Dr. Jean Paul Ndayizeye",
-    role: "CEO",
+    role: "CEO & Co-Founder",
     imageUrl:
     jeanpaul,
   },
@@ -35,12 +35,12 @@ const board = [
   //   imageUrl:
   //     desire,
   // },
-  // {
-  //   name: "Dr. Christian Mazimpaka",
-  //   role: "Member ",
-  //   imageUrl:
-  //     chris,
-  // },
+  {
+    name: "Dr. Christian Mazimpaka",
+    role: "Member ",
+    imageUrl:
+      chris,
+  },
 ];
 
 const staff = [
