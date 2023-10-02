@@ -15,7 +15,7 @@ import GalleryImg12 from "../src/img/background/pexels-daniel-tijesuni-2113709.j
 import QuoteImg from "../src/img/testimonial/quote.svg";
 // import icons
 import { GrFacebookOption } from "react-icons/gr";
-import { IoMdArrowForward } from "react-icons/io";
+import { IoLogoLinkedin, IoMdArrowForward } from "react-icons/io";
 import { FiSend } from "react-icons/fi";
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import {
@@ -50,11 +50,11 @@ export const navData = {
 };
 
 export const socialData = [
-  { href: "/", icon: <GrFacebookOption /> },
-  { href: "/", icon: <IoLogoInstagram /> },
-  { href: "/", icon: <IoLogoPinterest /> },
-  { href: "/", icon: <IoLogoTwitter /> },
-  { href: "/", icon: <IoLogoYoutube /> },
+  { href: "https://www.facebook.com/Rwandayvchange", icon: <GrFacebookOption /> },
+  { href: "https://www.linkedin.com/company/rwanda-youth-voice-for-change/?viewAsMember=true", icon: <IoLogoLinkedin /> },
+  // { href: "/", icon: <IoLogoPinterest /> },
+  { href: "https://twitter.com/ryvc_org", icon: <IoLogoTwitter /> },
+  // { href: "/", icon: <IoLogoYoutube /> },
 ];
 
 export const heroData = {
