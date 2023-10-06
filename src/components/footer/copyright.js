@@ -20,6 +20,8 @@ const Copyright = () => {
           &copy; 2023
           <span className='font-semibold text-white'> RYVC. </span>
           All rights reserved.
+          <br/>
+            Designed by 8 Lines Code Ltd.
         </motion.div>
       </div>
     </div>
