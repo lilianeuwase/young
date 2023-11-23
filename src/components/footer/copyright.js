@@ -21,7 +21,14 @@ const Copyright = () => {
           <span className="font-semibold text-white"> RYVC. </span>
           All rights reserved.
           <br /> <br />
-          Website designed & developed by 8 Lines Code Ltd.
+          Website designed & developed by{" "}
+          <a
+            href="https://8linescode.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            8 Lines Code
+          </a>
         </motion.div>
       </div>
     </div>

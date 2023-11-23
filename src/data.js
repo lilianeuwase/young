@@ -248,7 +248,7 @@ export const contactData = {
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: "+250 786 111 498",
+        number: "+250 798 979 117",
       },
       email: {
         icon: <FaEnvelope />,
@@ -294,7 +294,7 @@ export const footerData = {
     },
     phone: {
       icon: <FaPhoneAlt />,
-      number: "+250 786 111 498",
+      number: "+250 798 979 117",
     },
     email: {
       icon: <FaEnvelope />,
