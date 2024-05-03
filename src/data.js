@@ -212,8 +212,10 @@ export const galleryData = {
 };
 
 export const interviewData = {
-  title: "“Transforming lives through health, education, and innovation.”",
-  subtitle: "- Our motto -",
+  // title: "“Transforming lives through health, education, and innovation.”",
+  // subtitle: "- Our motto -",
+  title: "We have initiated a mental health support system called Maestro Mind Lab that provides a safe and caring space to get help",
+  subtitle: "- Call us for more information -",
   btnText: "Some Video",
   btnIcon: <FaPlay />,
 };

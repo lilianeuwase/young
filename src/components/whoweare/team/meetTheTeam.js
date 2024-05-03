@@ -6,6 +6,7 @@ let chris = require("../../../img/team/Christian Mazimpaka.jpeg");
 let gisele = require("../../../img/team/Gisele Iyakaremye.jpg");
 let diane = require("../../../img/team/Diane.JPG");
 let liliane = require("../../../img/team/lili.jpg");
+let josiane = require("../../../img/team/JosianeCircle.png");
 
 const exec = [
   {
@@ -45,6 +46,18 @@ const board = [
 
 const staff = [
   {
+    name: "Liliane Uwase",
+    role: "IT & Communications Manager",
+    imageUrl:
+      liliane,
+  },
+  {
+    name: "Josiane Uwishimwe",
+    role: "UX designer",
+    imageUrl:
+      josiane,
+  },
+  {
     name: "Gisele Iyakaremye",
     role: "Financial Officer",
     imageUrl:
@@ -55,13 +68,7 @@ const staff = [
     role: "Activity Officer",
     imageUrl:
       diane,
-  },
-  {
-    name: "Liliane Uwase",
-    role: "IT & Communications Manager",
-    imageUrl:
-      liliane,
-  },
+  }
 ];
 
 
